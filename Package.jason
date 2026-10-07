@@ -1,0 +1,12 @@
+{
+  "name": "link-shortener",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "lru-cache": "^10.2.2",
+    "mongodb": "^6.8.0"
+  }
+}
